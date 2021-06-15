@@ -15,7 +15,7 @@ std::pair<int,int> min_max( int V[], std::size_t n )
     // TODO: Adicione aqui sua solução.
 
     // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-int max = V[0];
+		int max = V[0];
 		int min = V[0];
 
 		int imax = 0;
