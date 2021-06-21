@@ -1,4 +1,8 @@
-#include "function.h"
+#include <array>
+using std::array;
+
+#include <string>
+using std::string;
 
 #include <iterator>
 using std::iter_swap;
@@ -10,5 +14,10 @@ using std::iter_swap;
 template <size_t SIZE>
 void reverse( std::array< std::string, SIZE > & arr )
 {
-    /*codigo*/
+    if(arr.size() > 1){
+			int t = arr.size();
+			for(int i = 0; i < t/2; i++){
+				iter_swap(&arr[i], &arr[(t-1) - i]);
+			}
+		}
 }
