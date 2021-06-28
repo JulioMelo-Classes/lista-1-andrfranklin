@@ -1,6 +1,7 @@
 #include <iostream>   // cout, endl
 #include "function.h"
 
+/*ok*/
 std::vector<unsigned int> fib_below_n( unsigned int n )
 {
     // TODO: adicione o seu código aqui.

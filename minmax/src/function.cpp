@@ -10,6 +10,9 @@
  * @return A pair of indexes to the first smallest and last largest values.
  */
 
+/*
+ok, não precisava guardar o valor maximo e a posição, vc poderia usar apenas V[imax] =)
+*/
 std::pair<int,int> min_max( int V[], std::size_t n )
 {
     // TODO: Adicione aqui sua solução.

@@ -12,7 +12,7 @@ using std::endl;
 using std::setprecision;
 
 // Se desejar, crie funções aqui, antes do main().
-
+/*blz!*/
 int main(void)
 {
     // TODO: Adicione aqui a sua solução.
@@ -40,7 +40,7 @@ int main(void)
 			total++;
 		}
 		
-		cout.precision(4);
+		cout.precision(4); /*outra forma de fazer é usar o precision antes de fazer a impressão cout << precision(4) << ...*/
 		cout << (qtd_0_25 / total)*100 << "\n";
 		cout.precision(4);
 		cout << (qtd_25_50 / total)*100 << "\n";

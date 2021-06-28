@@ -18,7 +18,7 @@ using std::max;
 
 // Coloque aqui qualquer função auxiliar que desejar.
 
-
+/*era só uma questão de reusar a do ponto_em_retangulo_1*/
 int main(void)
 {
     // TODO: Adicione aqui seu código.
